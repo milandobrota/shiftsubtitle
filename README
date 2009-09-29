@@ -7,7 +7,6 @@ sudo gem install shiftsubtitle-0.0.6.gem
 
  [shift.rb]
 
-#!/usr/bin/env ruby
 require 'rubygems'
 require 'shiftsubtitle'
 
