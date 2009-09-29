@@ -1,0 +1,28 @@
+This is a ruby gem that allows you to shift .SRT subtitles for a given number of seconds and milliseconds.
+
+
+Usage:
+gem build shiftsubtitle.gemspec
+sudo gem install shiftsubtitle-0.0.6.gem
+
+ [shift.rb]
+
+require 'rubygems'
+require 'shiftsubtitle'
+
+ShiftSubtitle::Shifter.new.shift
+
+
+And then write in console the following:
+ruby shift.rb --operation add --time 02,110 input_file output_file
+
+or
+
+chmod +x shift.rb
+./shift.rb --operation add --time 02,110 input_file output_file
+
+Chmod command is to be executed only once.
+
+--operation parameter accepts add and sub
+--time parameter accepts offset in a following format SS,MMM
+S are seconds, M are milliseconds

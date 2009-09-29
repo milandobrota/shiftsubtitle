@@ -1,0 +1,17 @@
+require 'rubygems'
+require 'rake'
+
+Gem::Specification.new do |s| 
+  s.name = "shift_subtitle"
+  s.version = "0.0.1"
+  s.author = "Milan Dobrota"
+  s.email = "milan@milandobrota.com"
+  s.homepage = "http://www.milandobrota.com"
+  s.platform = Gem::Platform::RUBY
+  s.summary = "This gem allows you to shift .SRT subtitles for a given number of seconds and milliseconds"
+  s.files = FileList["{lib}/**/*"].to_a
+  s.require_path = "lib"
+  s.test_files = ["spec/shift_subtitle_spec.rb"]
+  s.has_rdoc = false
+  s.extra_rdoc_files = ["README"]
+end

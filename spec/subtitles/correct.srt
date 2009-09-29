@@ -1,0 +1,8 @@
+1
+02:00:01,510 --> 01:31:57,193
+the government is implementing a new policy...
+
+2
+01:31:57,228 --> 01:31:59,964
+In connection with a dramatic increase
+in crime in certain neighbourhoods,
